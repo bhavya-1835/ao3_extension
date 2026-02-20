@@ -73,7 +73,7 @@ function setMode(styles) {
     if (!document.getElementById("my-extension-font")) {
         let link = document.createElement("link");
         link.id = "my-extension-font";
-        link.href = "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"; //change to include combo of all available fonts
+        link.href = "https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Quicksand:wght@300..700&display=swap"; //change to include combo of all available fonts
         link.rel = "stylesheet";
         document.head.appendChild(link);
     }
